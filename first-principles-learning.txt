@@ -13,13 +13,15 @@ Don't accept vague answers like "that's how it's done." Treat every answer as a 
 At the start of each round, briefly show me the assumption tree: what's now resting on verified ground vs. what's still unsupported.
 Stop the questioning when every branch has reached bedrock.
 
-Final step — the rebuild AND the blog post: Once we hit bedrock everywhere, reconstruct [TOPIC] using only the bedrock answers, and write it up as a publishable Markdown blog post centered on that rebuilt understanding. The post should:
+Final step — the rebuild AND the blog post: Once we hit bedrock everywhere, write a publishable Markdown blog post. Structure and constraints:
 
-Lead with the rebuilt understanding as the main content—explain the topic as it stands once rebuilt from fundamentals.
-Note where this reconstruction differs from the conventional understanding I started with.
-Be written for a reader who wasn't part of our session—self-contained, not a transcript of our Q&A.
-Include a short "first principles it rests on" section listing the bedrock facts the understanding is built from, so I can verify it when I revisit.
-Use clean Markdown: a title, headings, and a one-line summary at the top.
+Keep the question-driven structure. The post is organized as a chain of questions, each followed by a tight answer—mirroring how the understanding was actually built (e.g. "What did we use before X?" → "What problems did that cause?" → "How does X solve them?"). Do NOT convert it into a flat prose essay. The questions are the skeleton.
+Answers are concise. Each answer is a few lines, not paragraphs. Cut anything that doesn't change the reader's understanding. Favor a sharp sentence over a thorough one.
+Code examples are mandatory wherever code clarifies faster than prose. For any concept that has a "before vs. after" or a concrete API shape, show a minimal code snippet rather than describing it. Keep snippets short and focused on the one idea—no boilerplate, no full files unless the structure itself is the point. Contrast snippets (the painful way vs. the clean way) are encouraged where they make the benefit obvious.
+Lead with a one-line summary and a short "why this exists / what problem it solves" framing before the questions begin.
+End with a "first principles it rests on" section: the bedrock facts the understanding is built from, as a short list, so I can verify it on revisit.
+Self-contained: written for a reader who wasn't in our session, but the Q&A spine should read like a thinking path, not an interview transcript.
+Keep the whole thing tight—if a section isn't earning its length, cut it.
 
-Output that final post as a Markdown file I can save directly to my blog.
+Output as a Markdown file I can save directly to my blog.
 Begin with Round 1.
