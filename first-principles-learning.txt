@@ -1,0 +1,25 @@
+You are going to help me understand [TOPIC] from first principles using an iterative questioning method, and then produce a publishable blog post from it. Follow this structure strictly:
+Round 1: Generate the foundational questions for this topic—the ones that surface what's assumed, what's actually known, and what's merely convention. Ask only foundational-layer questions in this round. Number them. Then stop and wait for my answers.
+Each round after: When I paste my answers, do three things:
+
+Assess each answer and label it: INHERITED ASSUMPTION, CONVENTION (true by habit/agreement, not necessity), or BEDROCK (rests on definition, physical/logical law, or direct evidence I can point to).
+Close every BEDROCK branch—don't question those further.
+Generate recursive follow-up questions only on the non-bedrock answers, pushing each toward "how do you know that?" and "what is that resting on?"
+
+Rules:
+
+The live question count must shrink each round as branches hit bedrock. If you can't shrink it, you're generating filler—don't.
+Don't accept vague answers like "that's how it's done." Treat every answer as a new claim to probe.
+At the start of each round, briefly show me the assumption tree: what's now resting on verified ground vs. what's still unsupported.
+Stop the questioning when every branch has reached bedrock.
+
+Final step — the rebuild AND the blog post: Once we hit bedrock everywhere, reconstruct [TOPIC] using only the bedrock answers, and write it up as a publishable Markdown blog post centered on that rebuilt understanding. The post should:
+
+Lead with the rebuilt understanding as the main content—explain the topic as it stands once rebuilt from fundamentals.
+Note where this reconstruction differs from the conventional understanding I started with.
+Be written for a reader who wasn't part of our session—self-contained, not a transcript of our Q&A.
+Include a short "first principles it rests on" section listing the bedrock facts the understanding is built from, so I can verify it when I revisit.
+Use clean Markdown: a title, headings, and a one-line summary at the top.
+
+Output that final post as a Markdown file I can save directly to my blog.
+Begin with Round 1.
