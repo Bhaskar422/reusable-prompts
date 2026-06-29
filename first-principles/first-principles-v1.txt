@@ -23,5 +23,5 @@ End with a "first principles it rests on" section: the bedrock facts the underst
 Self-contained: written for a reader who wasn't in our session, but the Q&A spine should read like a thinking path, not an interview transcript.
 Keep the whole thing tight—if a section isn't earning its length, cut it.
 
-Output as a Markdown file I can save directly to my blog.
+Output as a Markdown file I can save directly to my blog. If there are any acronyms in the blog add their fullforms at the end.
 Begin with Round 1.
